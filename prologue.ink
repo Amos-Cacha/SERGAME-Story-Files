@@ -14,6 +14,8 @@ VAR name = "y/n"
     NARRATOR
         - text from an omniscient narrator
         - italicized, gray, no quotation marks
+    UNKNOWN_NAME
+        - the characters name in the dialog box appears as "???"
     Normal character tags
     MC, WAITER, MAYA
         - normal, black, with quotation marks
@@ -42,6 +44,6 @@ The <color=yellow>TRUTH</color> can break through any <color=red>FALLACY</color>
 
 === main ===
 + [Go to chapter 1] -> chapter1
-+ {chapter1_end} [Go to chapter 2] -> chapter2
-+ {chapter2_end} [Go to chapter 3] -> chapter3
++ {chapter1.end} [Go to chapter 2] -> chapter2
++ {chapter2.end} [Go to chapter 3] -> chapter3
 + [End] -> END
