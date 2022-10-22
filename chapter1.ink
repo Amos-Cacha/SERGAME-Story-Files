@@ -26,6 +26,7 @@ After searching a while, I've finally managed to track it down, and well... here
     {stopping:
         - The walls here are so bare, not a lick 'a paint or even any posters.
         - This place is giving me the heeby jeeebies.
+        // get new evidence
     }
 + [Look at kitchen door]
     {stopping:
