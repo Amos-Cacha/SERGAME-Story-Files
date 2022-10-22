@@ -124,7 +124,7 @@ She and the waiter exchange a nearly imperceptible nod.
 "Sorry doll, but I think ya need to get yer glasses checked cause I'm the only one he-"
 # NARRATOR
 You turn to gesture to the rest of the restaurant but you notice it's now filled with other people.
-Nearly every chair has a person sitting at it looking directly at you with a thousand-yard stare.
+Nearly every chair has a person sitting on it looking directly at you with a thousand-yard stare.
 # MC
 "Ahem, apologies, it's my mistake."
 "I'll just be heading on out now."

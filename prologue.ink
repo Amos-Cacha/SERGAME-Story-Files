@@ -1,6 +1,8 @@
 INCLUDE chapter1.ink
 INCLUDE chapter2.ink
 INCLUDE chapter3.ink
+INCLUDE help.ink
+
 
 VAR name = "y/n"
 
@@ -43,6 +45,7 @@ The <color=yellow>TRUTH</color> can break through any <color=red>FALLACY</color>
 -> main
 
 === main ===
++ [Help] -> help
 + [Go to chapter 1] -> chapter1
 + {chapter1.end} [Go to chapter 2] -> chapter2
 + {chapter2.end} [Go to chapter 3] -> chapter3
