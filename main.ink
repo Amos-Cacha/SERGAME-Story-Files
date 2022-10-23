@@ -1,7 +1,7 @@
 INCLUDE chapter1.ink
 INCLUDE chapter2.ink
 INCLUDE chapter3.ink
-INCLUDE help.ink
+INCLUDE tutorial.ink
 
 
 VAR name = "y/n"
@@ -19,7 +19,7 @@ VAR name = "y/n"
     UNKNOWN_NAME
         - the characters name in the dialog box appears as "???"
     Normal character tags
-    MC, WAITER, MAYA, HATTIE
+    MC, WAITER, MAYA, HATTIE, CODEX
         - normal, black, with quotation marks
 */
 
@@ -45,7 +45,7 @@ The <color=yellow>TRUTH</color> can break through any <color=red>FALLACY</color>
 -> main
 
 === main ===
-+ [Help] -> help
++ [Tutorial] -> tutorial
 + [Go to chapter 1] -> chapter1
 + {chapter1.end} [Go to chapter 2] -> chapter2
 + {chapter2.end} [Go to chapter 3] -> chapter3

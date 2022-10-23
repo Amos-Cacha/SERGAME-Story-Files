@@ -1,6 +1,7 @@
-=== help ===
+=== tutorial ===
 # NARRATOR
 TUTORIAL
+# CODEX # UNKNOWN_NAME
 Hi there! Looks like you're pretty new to this game.
 Why don't we start you off with the basics.
 
@@ -23,8 +24,8 @@ Okay now try interacting with that table over there by double clicking it.
     + + Perform ritual mini-game
     - - You have unlocked a new entry in your undercity codex.
     
-- Oh no...
-Apologies for you see I have not been completely truthful with you.
+- Oh no... It's happening.
+My apologies for you see I have not been completely truthful with you.
 I just felt that it was too soon to tell you and I did not want to worry you.
 Unfortunately I can no longer shield you from what's coming next.
 The truth is my dear {name}, you are already in a <color=red>Halimaw's Domain</color>.
@@ -37,14 +38,16 @@ Finding <color=yellow>evidence</color> is not always as easy as clicking on a la
 Sometimes you will need to investigate objects multiple times to find  <color=yellow>evidence</color>.
 Or, you may need to investigate something else before investigating an object yields evidence.
 Other domains are larger as well and you may need to traverse different rooms to look for <color=yellow>evidence</color>.
-By the way, do you remember that whole bit with that book your holding?
-That is your undercity codex.
-It is your edge against the monsters in this city.
-Whenever you discover a new piece of <color=yellow>evidence</color>, your undercity codex will react and you must perform the ritual to reveal new information about the monster in the domain you're in.
-Why don't you click that tab on the bottom to open up you undercity codex.
+But worry not I--
+Wait a moment I have not introduced myself yet have I?
+# CODEX
+I am your undercity codex, or more accurately I am the spirit that dwells in it.
+I am here to aid you in your fight against the monsters of this city.
+Whenever you discover a new piece of <color=yellow>evidence</color>, I will react to it and you must perform the ritual I instruct to you to reveal new information about the monster of the domain you're in.
+Why don't you click that tab on the bottom to to read the new entry you've just discovered.
 + [Open undercity codex]
 - From now on you will be able to open your undercity codex at any time.
-Since you've already performed the ritual, why don't you take a few minutes to study the new information you've learned about the monster residing in this domain.
+Why don't you take a few minutes to study the new information you've learned about the monster residing in this domain.
 You'll need it for what's coming next.
 
 + [Finish reading]

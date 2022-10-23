@@ -66,10 +66,9 @@ After searching a while, I've finally managed to track it down, and well... here
 - -> restuarant
 
 - (make_order) The waiter approaches you. His eyes are vacant as he hands you a laminated menu. The edges of it are frayed where the two pieces of plastic are starting to unbind.
-# WAITER
-"Can I get your order?"
 # NARRATOR
-You think about what to order
+The waiter stares at you blankly.
+You think about what to order.
 # MC
 "Hmm... "
 ~ temp order = "none"
@@ -78,8 +77,8 @@ You think about what to order
 + "I'll have some pares"
     ~ order = "pares"
 + "Can I order from the <color=red>night menu?</color>" -> part2
-- # WAITER
-"Okay."
+# NARRATOR
+The waiter hots down your order and unceremoniously heads towards the kitchen.
 # MC
 Man, no wonder nobody's here the service is terrible.
 # NARRATOR
@@ -116,7 +115,7 @@ You stop the waiter as he turns to leave
 
 = part2
 # NARRATOR
-The waiter eyes you suspiciously. Suddenly, a stern looking young woman loudly comes out of the kitchen door interrupting you.
+The waiter eyes you suspiciously. Suddenly, a stern looking woman loudly comes out of the kitchen door interrupting you.
 She and the waiter exchange a nearly imperceptible nod.
 # MAYA # UNKNOWN_NAME
 "Excuse me sir, but I think you need to leave."
@@ -124,8 +123,8 @@ She and the waiter exchange a nearly imperceptible nod.
 # MC
 "Sorry doll, but I think ya need to get yer glasses checked cause I'm the only one he-"
 # NARRATOR
-You turn to gesture to the rest of the restaurant but you notice it's now filled with other people.
-Nearly every chair has a person sitting on it looking directly at you with a thousand-yard stare.
+You turn to gesture to the rest of the restaurant but you notice it's now full of people.
+Nearly every chair has a person sitting on it looking directly at you with the same thousand-yard stare the waiter has.
 # MC
 "Ahem, apologies, it's my mistake."
 "I'll just be heading on out now."
@@ -137,6 +136,26 @@ As you are about to leave the restaurant into the rain, you feel a hand tap on y
 Cheezy crepes! She's certainly light on her foot.
 I didn't even hear anyone coming up behind me.
 "Ah, thank you... for that."
+
+# NARRATOR
+You head outside to the sidewalk with the overhang of the building above keeping you dry for the most part.
+You think about your next move.
+
+# MC
+Well this is turnin' out to be a total creep show. 
+Seems like that dame's the head honcho seeing as everybody else there can pass as an extra in a zombie movie.
+Hmmm... I need to collect more evidence.
+What should I do now?
++ [Go to the back of the building.]
+- Surely tere has to be something I can find around here.
+
+- (outside)
++ [Inspect back door]
++ [Inspect garbage pile 1]
+* [Inspect garbage pile 2]
+    * * (moved_garbage) Move the garbage pile
+* {moved_garbage} [Inspect grate.]
+- -> outside
 
 -> end
 
